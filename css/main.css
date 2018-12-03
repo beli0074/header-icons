@@ -1,3 +1,12 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 header {
   background-color: #d05c2e;
 }
@@ -17,7 +26,7 @@ img {
   width: 40px;
 }
 
-h2 {
+h1 {
   text-align: center;
   width: 100%;
   font-family: Merriweather;
@@ -25,12 +34,12 @@ h2 {
   color: #fff;
 }
 
-
 .nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
+  justify-content: center;
 }
 
 .nav li {
