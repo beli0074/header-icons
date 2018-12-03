@@ -32,6 +32,7 @@ h1 {
   font-family: Merriweather;
   font-size: 2rem;
   color: #fff;
+  margin: 10px;;
 }
 
 .nav {
@@ -50,7 +51,7 @@ h1 {
 .nav a {
   margin-top: 0;
   width: 100%;
-  display: flex;
+  display: block;
   padding: .5em 0;
   background-color: #d05c2e;
   color: #fff;
@@ -60,6 +61,7 @@ h1 {
   border-width: 1px;
   border-color: #a63f38;
   border-style: solid;
+  text-align: center;
 }
 
 .nav a:hover {
